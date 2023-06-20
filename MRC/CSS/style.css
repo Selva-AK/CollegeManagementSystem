@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    font-family: sans-serif;
+    text-align: center; 
+}
+.header img{
+    width:100%;
+    height: auto;
+}
+.bodimg{
+        text-align: center;
+        width: auto;
+        height: auto;
+}
+.bodimg img{
+    width: 100%;
+    height: auto;
+}
+.aboutmrc h1{
+    font-size: 3pc;
+    text-decoration: underline;
+    background-color: dodgerblue;
+    width:fit-content;
+    padding: 3px;
+}
+.aboutmrc i:hover{
+        color:royalblue;
+}
+.aboutmrc p{
+    font-size: 1.4pc;
+}
+.header p{
+    text-align: center;
+    font-size: 2.5pc;
+}
+.video video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+.subheading{
+    padding: 5px;
+    text-align: center;
+    font-size: 3pc;
+    color: black;
+    background-color:dodgerblue ;   
+}
+.ugpgdegree{
+    text-align: center;
+    background-color:dodgerblue;
+    padding: 5px;
+}
+.subheading1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightskyblue;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.subheading1:hover{
+    font-size: 1.5pc;
+    background-color: black;
+    border-radius: 20px;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+}
+.subheading1 a{
+    padding: 30px;
+}
+.footer{
+    background-color: dimgray;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+}
+.footer img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.imagescaleup{
+    transition: transform 1s;
+}
+.imagescaleup:hover{
+    -webkit-transform: scale(1.1);
+}
